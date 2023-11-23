@@ -23,13 +23,6 @@ class CalculatorControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
-    @Autowired
-    private CalculatorIntegerService calculatorIntegerService;
-    @Autowired
-    private CalculatorMessageIntegerService calculatorMessageIntegerService;
-    @Autowired
-    private CalculatorController controller;
-
     @Nested
     class Success {
 
